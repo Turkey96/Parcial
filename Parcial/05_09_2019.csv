@@ -1,0 +1,5 @@
+,Tiempo,Temperatura,Humedad,<built-in method time of datetime.datetime object at 0x000002729CFD4260>
+0,,,,<built-in method time of datetime.datetime object at 0x000002729CFD4260>
+1,Soleado,40.0,80.0,<built-in method time of datetime.datetime object at 0x000002729CFD4260>
+2,Nublado,30.0,82.0,<built-in method time of datetime.datetime object at 0x000002729CFD4260>
+3,Tormenta,22.0,83.0,<built-in method time of datetime.datetime object at 0x000002729CFD4260>
