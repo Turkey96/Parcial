@@ -39,10 +39,11 @@ def home():
     )
 @app.route('/log', methods=['GET','POST'])
 def form():
-    date=str(datetime.now().strftime("%d_%m_%Y"))
-    time=str(datetime.now().time)
-    df.insert(3,time,time)
-    df.to_csv(date+'.csv',sep=',')
+    if request.method=='GET':
+        date=str(datetime.now().strftime("%d_%m_%Y"))
+        time=str(datetime.now().time())
+        df.insert(3,time,time)
+        df.to_csv(date+'.csv',sep=',')
     return(render_template('log.html'))
 
 @app.route('/contact')
